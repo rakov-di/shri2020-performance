@@ -57,9 +57,9 @@ body {
   background-color: #fff;
 }
 
-[tabindex="-1"]:focus {
-  outline: 0 !important;
-}
+/*[tabindex="-1"]:focus {*/
+/*  outline: 0 !important;*/
+/*}*/
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
