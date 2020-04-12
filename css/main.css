@@ -13,16 +13,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @font-face {
     font-family: OpenSansReg;
-    src: url("../assets/OpenSans-Regular.woff2") format('woff2'),
-         url("../assets/OpenSans-Regular.ttf") format('truetype');
+    src: url("assets/OpenSans-Regular.woff2") format('woff2'),
+         url("assets/OpenSans-Regular.ttf") format('truetype');
     font-weight: bold;
     font-display: swap;
 }
 
 @font-face {
     font-family: OpenSansLight;
-    src: url("../assets/OpenSans-Light.woff2") format('woff2'),
-         url("../assets/OpenSans-Light.ttf") format('truetype');
+    src: url("assets/OpenSans-Light.woff2") format('woff2'),
+         url("assets/OpenSans-Light.ttf") format('truetype');
     font-display: swap;
 }
 
@@ -312,7 +312,7 @@ footer {
 }
 
 .card {
-    background: url("../img/cbg.jpg");
+    background: url("img/cbg.jpg");
     color: #333;
     border-radius: 20px;
     box-sizing: border-box;
@@ -389,7 +389,7 @@ html {
 }
 
 .description_critical {
-    background: url('../img/cbg.jpg');
+    background: url('img/cbg.jpg');
     color: #000;
     border-radius: 20px;
     margin-top: -20px;
@@ -416,7 +416,7 @@ html {
     width: 100%;
     margin-top: 40px;
     display: block;
-    background: url(../img/cam2.jpg);
+    background: url('img/cam2.jpg');
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;
