@@ -29,7 +29,7 @@ gulp.task('css', () => {
 
 // Build css styles
 gulp.task('css_all', () => {
-  return gulp.src(['./css/default.css','./css/main.css'])
+  return gulp.src(['./css/default.css','./css/main.css','./css/inline.css'])
     .pipe(autoprefixer('>1% and last 2 versions and not IE 11'))
     .pipe(concatCss('all.css'))
     .pipe(cssnano())
